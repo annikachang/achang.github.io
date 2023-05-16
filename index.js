@@ -6,8 +6,11 @@ async function getFileContentAsText(file) {
 
 async function insertContentsFromFiles() {
     const tbl = document.querySelectorAll('[data-src]'); // get elements with the data attribute "data-src" 
-    for (var i=0; i < tbl.length; i++) // loop over the elements contained in tbl
+    console.log(document)
+    console.log(tbl.length);
+    for (var i=0; i < tbl.length; i++) {
         tbl[i].innerHTML = await getFileContentAsText(tbl[i].dataset.src);
+    } // loop over the elements contained in tbl
 }
 
 // dont forget to call the function to insert the files content into the elements
