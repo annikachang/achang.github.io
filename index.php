@@ -12,7 +12,8 @@
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
-  <h1>Hello</h1>
+  <?php
+  include 'first.php';
+  ?>
 </body>
 </html>
