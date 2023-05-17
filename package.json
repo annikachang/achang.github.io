@@ -8,7 +8,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/annikachang/personal/issues"
   },
-  "homepage": "https://github.com/annikachang/personal#readme",
+  "homepage": "https://annikachang.github.io/personal/",
   "dependencies": {
     "next": "^13.4.2",
     "react": "^18.2.0",
@@ -28,6 +30,7 @@
   "devDependencies": {
     "@types/node": "20.1.7",
     "@types/react": "18.2.6",
+    "gh-pages": "^5.0.0",
     "typescript": "^5.0.4"
   }
 }
