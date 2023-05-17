@@ -32,5 +32,6 @@
     "@types/react": "18.2.6",
     "gh-pages": "^5.0.0",
     "typescript": "^5.0.4"
-  }
+  },
+  "@next/env": "^12.0.7"
 }
