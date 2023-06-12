@@ -54,9 +54,7 @@ export default function Page() {
           <div ref={home}>
             <AboutInfo />
           </div>
-          <div ref={projects}>
-            <Projects />
-          </div>
+          <div ref={projects}>{/* <Projects /> */}</div>
           <div ref={connect}>
             <Footer />
           </div>
