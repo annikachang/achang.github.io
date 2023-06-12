@@ -11,7 +11,7 @@ import { useRef } from "react";
 import AboutInfo from "../components/aboutinfo";
 import theme from "../styles/theme";
 import { ThemeProvider } from "@mui/material/styles";
-import Projects from "../components/Projects";
+// import Projects from "../components/Projects";
 
 const StyledBody = styled.div`
   margin-top: 0px;
