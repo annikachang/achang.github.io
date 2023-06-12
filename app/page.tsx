@@ -43,7 +43,7 @@ export default function Page() {
   return (
     <ThemeProvider theme={theme}>
       <StyledBody>
-        <NavBar elevation={0}>
+        {/* <NavBar elevation={0}>
           <Toolbar sx={{ marginLeft: "auto" }}>
             <Link onClick={() => scrollToSection(home)}>About me</Link>
             <Link onClick={() => scrollToSection(projects)}>Projects</Link>
@@ -60,7 +60,7 @@ export default function Page() {
           <div ref={connect}>
             <Footer />
           </div>
-        </div>
+        </div> */}
       </StyledBody>
     </ThemeProvider>
   );
