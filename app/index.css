@@ -1,0 +1,16 @@
+
+
+#main {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;500&display=swap");
+}
+
+.link {
+    color: black;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+}
+
