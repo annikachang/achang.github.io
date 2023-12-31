@@ -14,8 +14,8 @@ export default function Page() {
       <img className="abs line-1" src="images/line-1.svg"/>
         <div className="flex container-1 rel">
         <div className="rel headshot_container">
-            <img className="abs frame" src="/images/headshot_frame.svg"/>
-            <img className="abs headshot-image" src="/images/headshot_image.png"/>
+            <img className="abs frame" src="images/headshot_frame.svg"/>
+            <img className="abs headshot-image" src="images/headshot_image.png"/>
           </div>
           <div className="maindescription_container"> 
           {mainDescriptionData.map((value, index) => (
@@ -23,8 +23,8 @@ export default function Page() {
           ))}
           </div>
         </div>
-        <img className="abs ellipse-2" src="/images/ellipse-2.svg"/>
-        <img className="abs line-2" src="/images/line-2.svg"/>
+        <img className="abs ellipse-2" src="images/ellipse-2.svg"/>
+        <img className="abs line-2" src="images/line-2.svg"/>
       </div>
     </ThemeProvider>
   );
