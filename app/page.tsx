@@ -10,8 +10,8 @@ export default function Page() {
   return (
     <ThemeProvider theme={theme}>
       <div id="main">
-      <img className="abs ellipse-1" src="/images/ellipse-1.svg"/>
-      <img className="abs line-1" src="/images/line-1.svg"/>
+      <img className="abs ellipse-1" src="images/ellipse-1.svg"/>
+      <img className="abs line-1" src="images/line-1.svg"/>
         <div className="flex container-1 rel">
         <div className="rel headshot_container">
             <img className="abs frame" src="/images/headshot_frame.svg"/>
