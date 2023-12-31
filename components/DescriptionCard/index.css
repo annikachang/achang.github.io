@@ -1,0 +1,14 @@
+.even-card {
+    margin-left: 250px;
+}
+
+.desc-card {
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1330px) {
+    .even-card {
+        margin-left: 0px;
+    }
+
+}

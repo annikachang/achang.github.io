@@ -1,16 +1,165 @@
-
-
-#main {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;500&display=swap");
+html {
+    --blue: #2793BC;
+    background-color: #F9F1DA;
 }
 
-.link {
-    color: black;
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 500;
+.rel {
+    position: relative;
 }
 
+.abs {
+    position: absolute;
+}
+
+
+h1 {
+    font-family: var(--font-header);
+    font-size: 3.5em;
+    color: var(--blue);
+    margin: 0px 0px 5px 0px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p {
+    font-family: var(--font-body);
+    font-size: 1.2em;
+    margin: 0px 0px 10px 0px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.flex {
+    display: flex;
+}
+
+.container-1 {
+    top: -8px;
+}
+
+.headshot_container {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+}
+
+.maindescription_container {
+    flex: 6;
+    margin-top: 10%;
+}
+
+.headshot_container .frame {
+    max-width: 75%;
+    margin-right: 70px;
+
+}
+
+.headshot_container .headshot-image {
+    width: 80%;
+    height: auto;
+    margin-top: 25.5%;
+    margin-right: 10px;
+}
+
+.ellipse-1 {
+    right: 0px;
+    top: 0px;
+    max-width: 621px;
+}
+
+.line-1 {
+    right: 340px;
+    top: 85px;
+}
+
+.line-2 {
+    top: 575px;
+    right: 0px;
+}
+
+.ellipse-2 {
+    top: 730px;
+    left: 0px;
+}
+
+
+@media only screen and (max-width: 1110px) {
+    .headshot_container .frame {
+        max-width: 90%;
+        margin-right: 30px;
+
+    }
+
+    .maindescription_container {
+        font-size: 12px;
+    }
+
+    .headshot_container .headshot-image {
+        width: 95%;
+        margin-top: 35%;
+        margin-left: 10px;
+    }
+
+    .line-2 {
+        top: 450px;
+    }
+}
+
+@media only screen and (max-width: 1106px) {
+    .headshot_container .headshot-image {
+        margin-top: 31.5%;
+    }
+}
+
+
+@media only screen and (max-width: 780px) {
+    .container-1 {
+        flex-direction: column;
+    }
+
+    .maindescription_container {
+        margin-top: 125%;
+        font-size: 16px;
+    }
+
+    .line-1 {
+        display: none;
+    }
+
+    .headshot_container .frame {
+        max-width: 75%;
+        margin-right: 55px;
+    }
+
+    .headshot_container .headshot-image {
+        width: 80%;
+        height: auto;
+        margin-top: 25.5%;
+        margin-right: 10px;
+    }
+
+    .line-2 {
+        top: 1300px;
+    }
+
+    .ellipse-2 {
+        top: 1650px;
+    }
+}
+
+@media only screen and (max-width: 683px) {
+    .line-2 {
+        display: none;
+    }
+
+    .ellipse-2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .maindescription_container {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,57 @@
+.header1Projects {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 37px;
+    margin-bottom: 0px;
+}
+
+.header2Projects {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 22px;
+    font-weight: 30;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    width: 1000px;
+} 
+
+body {
+    margin: 0px 200px;
+    margin-top: 50px;
+}
+
+.description {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 17px;
+    width: 500px;
+    line-height: 1.7;
+    margin-left: 100px;
+}
+
+.descContainer {
+    display: inline-flex;
+    margin-bottom: 60px;
+}
+
+.button {
+    border-radius: 20px;
+    text-transform: none;
+    font-family:  "Barlow Condensed", sans-serif;
+    font-size: 15px;
+    color: black;
+    margin-right: 10px;
+    height: 25px;
+    pointer-events: none;
+    
+}
+
+.description2 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.techContainer {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    margin-bottom: 30px;
+}
