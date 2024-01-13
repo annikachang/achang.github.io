@@ -1,7 +1,7 @@
 "use client";
 import theme from "../styles/theme";
 import { ThemeProvider } from "@mui/material/styles";
-import "app/index.css";
+import "./index.css";
 import DescriptionCard from "../components/DescriptionCard";
 import {mainDescriptionData, projectDescriptionData, contactData} from "./info";
 import ProjectCard from "../components/ProjectCard";
