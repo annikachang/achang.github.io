@@ -12,11 +12,11 @@ import Header from "../components/Header";
 export default function Page() {
   return (
     <ThemeProvider theme={theme}>
-      <Header icon_url="../images/header-bullet.svg" mobile_icon_url="../images/menu-mobile.svg"/>
+      <Header icon_url="images/header-bullet.svg" mobile_icon_url="images/menu-mobile.svg"/>
       <div id="main">
         <div className="flex container-1 rel">
-        <img className="abs ellipse-1" src="../images/ellipse-1.svg"/>
-        <img className="abs line-1" src="../images/line-1.svg"/>
+        <img className="abs ellipse-1" src="images/ellipse-1.svg"/>
+        <img className="abs line-1" src="images/line-1.svg"/>
         <div className="rel headshot_container">
             <img className="abs frame" src="../images/headshot_frame.svg"/>
             <img className="abs headshot-image" src="../images/headshot_image.png"/>
