@@ -1,6 +1,14 @@
 html {
     --blue: #2793BC;
+    --cream: #F9F1DA;
     background-color: #F9F1DA;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
 }
 
 .rel {
@@ -11,10 +19,14 @@ html {
     position: absolute;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 h1 {
     font-family: var(--font-header);
-    font-size: 3.5em;
+    font-size: 3em;
     color: var(--blue);
     margin: 0px 0px 5px 0px;
     font-style: normal;
@@ -22,21 +34,44 @@ h1 {
     line-height: normal;
 }
 
-p {
+h2 {
+    font-family: var(--font-header);
+    font-size: 2.2em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-family: var(--font-header);
+    font-size: 1.8em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #79BC4F;
+}
+
+p,
+b {
     font-family: var(--font-body);
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin: 0px 0px 10px 0px;
     font-style: normal;
     line-height: normal;
 }
 
+.center-text {
+    text-align: center;
+}
+
+
 .flex {
     display: flex;
 }
 
-.container-1 {
-    top: -8px;
-}
 
 .headshot_container {
     flex: 4;
@@ -46,13 +81,12 @@ p {
 
 .maindescription_container {
     flex: 6;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
 .headshot_container .frame {
     max-width: 75%;
     margin-right: 70px;
-
 }
 
 .headshot_container .headshot-image {
@@ -66,25 +100,97 @@ p {
     right: 0px;
     top: 0px;
     max-width: 621px;
+    z-index: -1;
 }
 
 .line-1 {
     right: 340px;
-    top: 85px;
+    top: 80px;
+    z-index: -1;
 }
 
 .line-2 {
-    top: 575px;
+    top: 550px;
     right: 0px;
+    z-index: -1;
+}
+
+.line-3 {
+    left: -8px;
+    bottom: -10px;
+    z-index: -1;
 }
 
 .ellipse-2 {
-    top: 730px;
+    top: 790px;
     left: 0px;
+    z-index: -1;
+}
+
+.ellipse-3 {
+    display: none;
+}
+
+.ellipse-4 {
+    right: -8px;
+    bottom: -10px;
+    max-width: 950px;
+    z-index: -1;
+}
+
+.container-2 {
+    margin-top: 140px;
+    text-align: center;
+}
+
+.project-container {
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.container-3 {
+    margin-left: 110px;
+    margin-top: 5%;
+    padding-bottom: 35px;
+}
+
+.footer-text,
+.mobile-footer {
+    font-size: 1em;
+    right: 0px;
+    bottom: -15px;
+}
+
+.mobile-footer {
+    display: none;
 }
 
 
-@media only screen and (max-width: 1110px) {
+@media only screen and (max-width: 1467px) {
+    .container-3 {
+        padding-bottom: 110px;
+    }
+}
+
+@media only screen and (max-width: 1391px) {
+
+    .ellipse-4 {
+        max-height: 290px;
+    }
+
+    .container-3 {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 1184px) {
+    .container-3 {
+        padding-bottom: 150px;
+    }
+}
+
+
+@media only screen and (max-width: 1159px) {
     .headshot_container .frame {
         max-width: 90%;
         margin-right: 30px;
@@ -104,11 +210,31 @@ p {
     .line-2 {
         top: 450px;
     }
+
 }
 
 @media only screen and (max-width: 1106px) {
     .headshot_container .headshot-image {
         margin-top: 31.5%;
+    }
+
+    .container-3 {
+        padding-bottom: 190px;
+    }
+}
+
+@media only screen and (max-width: 968px) {
+    .project-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .maindescription_container {
+        margin-top: 21%;
+    }
+
+    .line-3 {
+        display: none;
     }
 }
 
@@ -156,10 +282,52 @@ p {
     .ellipse-2 {
         display: none;
     }
+
+    .ellipse-3 {
+        display: block;
+        left: 0;
+        width: 90%;
+    }
+
+    .footer-text {
+        width: 90%;
+    }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 503px) {
+    .contact-container {
+        font-size: 12px;
+        margin-bottom: -40px;
+    }
+
+    .mobile-footer {
+        display: block;
+        font-size: .9em;
+    }
+
+    .footer-text {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 395px) {
     .maindescription_container {
         font-size: 12px;
+    }
+
+    .container-2 {
+        margin-top: 100px;
+    }
+
+    .contact-container {
+        margin-bottom: -50px;
+    }
+
+}
+
+@media only screen and (max-width: 344px) {
+    .contact-container {
+        font-size: 9px;
+        margin-bottom: -80px;
     }
 }

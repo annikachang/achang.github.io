@@ -1,0 +1,65 @@
+.project-card {
+    width: 284px;
+    height: 284px;
+    border-radius: 20px;
+    border: 10px solid #EF722B;
+    position: relative;
+    background-color: var(--cream);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+.project-card:hover {
+    background-color: #EF722B;
+    transition: 0.2s;
+}
+
+
+.project-card:hover img {
+    display: none;
+}
+
+.project-card img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.project-desc {
+    display: none;
+    text-align: center;
+}
+
+.project-card:hover .project-desc {
+    display: inline;
+}
+
+
+.project-desc .p-larger {
+    font-size: 1.4em;
+}
+
+.project-desc p {
+    color: #FFFFFF;
+    vertical-align: middle;
+}
+
+.project-link {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 300px) {
+    .project-card {
+        width: 180px;
+        height: 180px;
+    }
+
+    .project-card img {
+        width: 70%;
+        height: auto;
+    }
+}

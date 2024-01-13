@@ -1,57 +1,70 @@
-.header1Projects {
-    font-family: "Barlow Condensed", sans-serif;
-    font-size: 37px;
-    margin-bottom: 0px;
+.project-header {
+    font-size: 70px;
 }
 
-.header2Projects {
-    font-family: "Barlow Condensed", sans-serif;
-    font-size: 22px;
-    font-weight: 30;
-    margin-top: 10px;
-    margin-bottom: 100px;
-    width: 1000px;
-} 
-
-body {
-    margin: 0px 200px;
-    margin-top: 50px;
+.project-container {
+    margin: 5% 10%;
 }
 
-.description {
-    font-family: "Barlow Condensed", sans-serif;
-    font-size: 17px;
-    width: 500px;
-    line-height: 1.7;
-    margin-left: 100px;
-}
-
-.descContainer {
-    display: inline-flex;
-    margin-bottom: 60px;
-}
-
-.button {
-    border-radius: 20px;
-    text-transform: none;
-    font-family:  "Barlow Condensed", sans-serif;
-    font-size: 15px;
-    color: black;
-    margin-right: 10px;
-    height: 25px;
-    pointer-events: none;
-    
-}
-
-.description2 {
-    font-family: "Barlow Condensed", sans-serif;
-    font-size: 17px;
-    margin-right: 10px;
-}
-
-.techContainer {
+.project-container .img-container {
     display: flex;
-    align-items: center;
-    width: 1000px;
-    margin-bottom: 30px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.project-container .img-container img {
+    width: 45%;
+    height: auto;
+}
+
+
+.project-desc {
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+
+.tech-desc {
+    margin-left: 20px;
+}
+
+.tech-desc div {
+    margin-left: 20px;
+}
+
+.tech-desc-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+@media only screen and (max-width: 1106px) {
+
+    .project-container {
+        margin: 5% 5%;
+    }
+
+    .project-container .img-container img {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .project-container .img-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-container .img-container img {
+        width: 70%;
+        margin-bottom: 10%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .project-container {
+        margin: 5% 3%;
+    }
+
+    .project-container .img-container img {
+        width: 85%;
+    }
 }
