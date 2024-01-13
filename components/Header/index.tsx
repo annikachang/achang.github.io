@@ -16,16 +16,16 @@ const Header: React.FC<{icon_url: string, mobile_icon_url: string}> = ({icon_url
             </a>
             <h1>ANNIKA CHANG</h1>
                 <div className="flex header-links">
-                <a href="/personal">
+                <a href="/">
                     <h2>HOME</h2>
                 </a>
-                <a href="/personal/#projects">
+                <a href="/#projects">
                     <h2>PROJECTS</h2>
                 </a>
                 <a href="https://drive.google.com/file/d/13K9cWarvOr-0B8SRjoluKw7XeR3FU_-f/view?usp=sharing">
                     <h2>RESUME</h2>
                 </a>
-                <a href="/personal/#contact">
+                <a href="/#contact">
                     <h2>CONTACT ME</h2>
                 </a>
             </div>
@@ -36,13 +36,13 @@ const Header: React.FC<{icon_url: string, mobile_icon_url: string}> = ({icon_url
                 <a href="/">
                     <h2>HOME</h2>
                 </a>
-                <a href="/personal/#projects">
+                <a href="/#projects">
                     <h2>PROJECTS</h2>
                 </a>
                 <a href="https://drive.google.com/file/d/13K9cWarvOr-0B8SRjoluKw7XeR3FU_-f/view?usp=sharing">
                     <h2>RESUME</h2>
                 </a>
-                <a href="/personal/#contact">
+                <a href="/#contact">
                     <h2>CONTACT ME</h2>
                 </a>
         </div>
