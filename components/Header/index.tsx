@@ -22,7 +22,7 @@ const Header: React.FC<{icon_url: string, mobile_icon_url: string}> = ({icon_url
                 <a href="/#projects">
                     <h2>PROJECTS</h2>
                 </a>
-                <a href="https://drive.google.com/file/d/13K9cWarvOr-0B8SRjoluKw7XeR3FU_-f/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/1VtuW-hhsUv0IjXBDHn_95ArwE8adfRhT/view?usp=sharing">
                     <h2>RESUME</h2>
                 </a>
                 <a href="/#contact">

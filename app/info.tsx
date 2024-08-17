@@ -32,7 +32,12 @@ const educationDescription: DescriptionType[] = [
 
 const experiencesDescription: DescriptionType[] = [
     {
-        sub_header: "Incoming Software Development Engineer @ Amazon",
+        sub_header: "Incoming Full Stack Intern @ Cisco Meraki",
+        body: [],
+        date: "September - December 2024"
+    },
+    {
+        sub_header: "Software Development Engineer @ Amazon",
         body: [],
         date: "May - August 2024"
     },
@@ -47,7 +52,7 @@ const organizationDescriptions: DescriptionType[] = [
     {
         sub_header: "Tech Lead and Developer @ Scout",
         body: [],
-        date: "September 2022 - present"
+        date: "September 2022 - June 2024"
     },
     {
         sub_header: "Writer and Web Team Member @ NUScience",
